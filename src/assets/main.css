@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+  --color-white: #fff;
+  --color-black: #000;
+  --color-light-gray: #f8f8f8;
+  --color-tab-hover: #0063be;
+
+  --color-text-default-submit: #0080f6;
+  --color-text-disabled: #909090;
+  --color-label: #909090;
+  --color-input: #333;
+  --color-submit-background-hover: #eeeeee;
+  --color-submit-alt-background-hover: #fdfdfd;
+
+  --color-sunny-orange-default-background: #fff6ce;
+  --color-sunny-orange-default-text: #e76101;
+  --color-sunny-orange-background-hover: #fff0b9;
+  --color-sunny-orange-text-hover: #c85400;
+
+  --color-deep-blue-default-background: #a2d7e7;
+  --color-deep-blue-default-text: #0465ac;
+  --color-deep-blue-background-hover: #92d8ff;
+  --color-deep-blue-text-hover: #065188;
+
+  --color-floral-green-default-background: #adedb3;
+  --color-floral-green-default-text: #018d31;
+  --color-floral-green-background-hover: #8ffb99;
+  --color-floral-green-text-hover: #006f26;
+
+  --color-interstellar-gray-default-background: #46454a;
+  --color-interstellar-gray-background-hover: #3f3664;
+  --color-interstellar-gray-border-focus-visible: #37006d;
+  --color-ufo-on-gray-background: #d2cdea;
+
+  --color-gray-underline: #ededed;
+  --color-gray-tablet-pc: #e0e0e0;
+  --color-shadow: rgba(0, 0, 0, 0.05);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: white;
+}
+
+@media (min-width: 768px) {
+  body {
+    padding: 48px;
+    background-color: var(--color-gray-tablet-pc);
+  }
+}
