@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/demo-fly/:path*",
+      "destination": "https://demo-fly.vercel.app/:path*"
+    }
+  ]
+}
