@@ -2,6 +2,9 @@
 
 This is a dummy application made for interview.
 
+- Deployed app [here](https://demo-fly.vercel.app).
+- Code challenge [here](https://demo-fly.vercel.app/code-challenge).
+
 ## Overview
 
 This application allows you to interact with different buttons and a form.
