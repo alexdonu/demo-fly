@@ -97,7 +97,7 @@ function findDistrictWithMostBuildingsFunctional(city: District[]) {
             <h4>Buildings count</h4>
             <div v-for="(district, index) in city" :key="index">
               <div>
-                <span>District {{ index + 1 }}: </span>
+                <span>District {{ index }}: </span>
                 <span>{{ buildingsCountProcedural(district) }}</span>
               </div>
             </div>
@@ -115,7 +115,7 @@ function findDistrictWithMostBuildingsFunctional(city: District[]) {
             <h4>Buildings count</h4>
             <div v-for="(district, index) in city" :key="index">
               <div>
-                <span>District {{ index + 1 }}: </span>
+                <span>District {{ index }}: </span>
                 <span>{{ buildingsCountFunctional(district) }}</span>
               </div>
             </div>
